@@ -21,10 +21,12 @@ export function Key(props: KeyProps) {
         y={0}
       ></rect>
       {texts.map((tx) => {
+        let textSize = 0.9 - 0.03 * tx.length;
         return (
           <text
             x={10}
             y={15 + (texts.length == 1 ? 10 : tx == texts[0] ? 0 : 20)}
+            style={{ fontSize: textSize + "rem" }}
           >
             {tx}
           </text>

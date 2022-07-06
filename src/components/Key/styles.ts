@@ -9,6 +9,5 @@ export const Container = styled.svg`
   }
   text {
     color: #ff0000;
-    font-size: 0.8rem;
   }
 `;
