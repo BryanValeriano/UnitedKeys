@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  svg {
+  .background {
     aspect-ratio: 1000/250;
-    rect {
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+    .rectbackground {
       box-sizing: border-box;
-      fill: var(--egpyt-cotton);
+      fill: var(--grey);
     }
   }
 `;

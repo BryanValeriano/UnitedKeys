@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 		--text-body: #969CB3;                                                                                          
 		--shape: #FFFFFF;                                                                                          
 		--egpyt-cotton: #E6DFCE;
+		--grey: #CFCFC4;
 		--key-size: 40;
 	}                 
 
